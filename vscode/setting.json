@@ -1,48 +1,46 @@
 {
-    // vim
-    "vim.smartRelativeLine": true,
-    "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
-    "vim.searchHighlightColor": "#a75600",
-    // "vim.searchMatchColor": "#a75600",
-    // "vim.substitutionColor": "#0CFF94",
-    // workbench color 
-    "workbench.colorCustomizations": {
-        // "statusBar.background": "#4e2a8e",
-        // "statusBarItem.remoteBackground": "#21bb18"
-        // "titleBar.activeBackground": "#a75600",
-        // "editor.selectionBackground": "#c90505",
-        // "editor.selectionHighlightBackground": "#495c7eeb",
-        // "editor.findMatchBackground": "#a75600",
-        // "editor.findMatchHighlightBackground": "#00fff7"
-        // "editor.wordHighlightBackground": "#ff0000",
-        // "editor.selectionHighlightBorder": "#ff0000"
-    },
-    "workbench.colorTheme": "GitHub Dark Default",
-    "editor.accessibilityPageSize": 11,
-    "editor.fontSize": 15,
-    // editor
-    "editor.formatOnSaveMode": "file",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-    },
-    "terminal.integrated.scrollback": 100000,
-    "terminal.integrated.fontFamily": "",
-    // python
-    // "python.linting.pylintEnabled": true,
-    // "python.linting.enabled": true,
-    "python.formatting.provider": "black",
-    "jupyter.widgetScriptSources": [
-        "jsdelivr.com",
-        "unpkg.com"
-    ],
-    "window.zoomLevel": 1,
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "dvc.doNotRecommendRedHatExtension": true,
-    "python.languageServer": "Pylance",
-    "jupyter.askForKernelRestart": false,
-    "workbench.iconTheme": "material-icon-theme",
+  // vim
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.searchHighlightColor": "#a75600",
+  // "vim.searchMatchColor": "#a75600",
+  // "vim.substitutionColor": "#0CFF94",
+  // workbench color 
+  "workbench.colorCustomizations": {
+    // "statusBar.background": "#4e2a8e",
+    // "statusBarItem.remoteBackground": "#21bb18"
+    // "titleBar.activeBackground": "#a75600",
+    // "editor.selectionBackground": "#c90505",
+    // "editor.selectionHighlightBackground": "#495c7eeb",
+    // "editor.findMatchBackground": "#a75600",
+    // "editor.findMatchHighlightBackground": "#00fff7"
+    // "editor.wordHighlightBackground": "#ff0000",
+    // "editor.selectionHighlightBorder": "#ff0000"
+  },
+  "editor.accessibilityPageSize": 11,
+  // editor
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports": true,
+  // },
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.fontFamily": "",
+  // python
+  // "python.linting.pylintEnabled": true,
+  // "python.linting.enabled": true,
+  // "python.formatting.provider": "black",
+  // "jupyter.widgetScriptSources": [
+  //   "jsdelivr.com",
+  //   "unpkg.com"
+  // ],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  // "dvc.doNotRecommendRedHatExtension": true,
+  "jupyter.askForKernelRestart": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.inheritEnv": false,
+  "editor.fontSize": 15
 }
